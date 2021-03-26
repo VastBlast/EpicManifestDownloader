@@ -1,0 +1,19 @@
+{
+  "name": "epic-manifest-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "zlib": "^1.0.5"
+  }
+}

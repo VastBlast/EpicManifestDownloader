@@ -1,19 +1,30 @@
 {
-  "name": "epic-manifest-downloader",
-  "version": "1.0.0",
-  "description": "",
-  "main": "lib/index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "tests"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "async": "^3.2.0",
-    "zlib": "^1.0.5"
-  }
+	"name": "epic-manifest-downloader",
+	"version": "1.0.2",
+	"description": "NodeJS library to download files from manifests used by the Epic Games Launcher",
+	"main": "lib/index.js",
+	"directories": {
+		"lib": "lib",
+		"test": "tests"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": "git://github.com/vastblast/epicmanifestdownloader.git",
+	"keywords": [
+		"epicgames",
+		"manifest",
+		"downloader",
+		"fortnite"
+	],
+	"author": "VastBlast",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/vastblast/epicmanifestdownloader/issues"
+	},
+	"homepage": "https://github.com/vastblast/epicmanifestdownloader",
+	"dependencies": {
+		"async": "^3.2.0",
+		"zlib": "^1.0.5"
+	}
 }

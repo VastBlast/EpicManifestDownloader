@@ -12,6 +12,7 @@ const { Downloader } = require('epic-manifest-downloader');
 
 (async() => {
 	const emd = new Downloader();
+	await emd.downloadmanifest();
 	await emd.start({
 		manifest: './manifest.json',
 		serverPath: '/Builds/Fortnite/CloudDir/ChunksV3',
